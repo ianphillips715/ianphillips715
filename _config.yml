@@ -1,0 +1,52 @@
+# Site/SEO settings
+email: okay@samesies.io
+baseurl: ""
+paginate: 12
+paginate_path: "/posts/:num/"
+permalink: /:year/:month/:day/:title/
+google_analytics:
+
+name: Ian Phillips
+title: Ian Phillips
+description: >
+  Student, etdsfdffsdfsd...
+url: http://barber.samesies.io
+default_img: /assets/images/placeholder-23.jpg
+social:
+  - name: linkedin
+    url: https://www.linkedin.com/in/ian-phillips-a527b0132/
+  - name: instagram
+    url: https://www.instagram.com/ticket_collector_/
+  - name: github
+    url: https://github.com/ianphillips715
+# Contact settings
+contact_img: /assets/images/tahoe_boats.png
+
+# Disqus settings
+disqus: test-apkdzgmqhj
+
+# Author settings
+author:
+  - name: Ian Phillips
+    bio: Ian Phillips was born and raised in the Santa Cruz mountains and the Silicon Valley. He currently attends UC Davis pursuing a B.S. in Material Science and Engineering with a focus in Chemical Engineering
+    url:
+
+# Build settings
+markdown: kramdown
+remote-theme: samesies/barber-jekyll
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - node_modules
+  - .DS_Store
+  - barber.jpg
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - package.json
+  - README.md
