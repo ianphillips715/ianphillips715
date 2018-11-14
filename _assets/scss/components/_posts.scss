@@ -40,9 +40,9 @@
         content: '2 .column.posts-half';
       }
 
-      @media screen and (min-width: $mq-xlarge) {
-        content: '3 .column.posts-third';
-      }
+      // @media screen and (min-width: $mq-xlarge) {
+      //   content: '3 .column.posts-third';
+      // }
     }
 
     &:after {
